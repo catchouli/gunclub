@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Altrincham Rifle and Pistol Club</title>
+  <meta name="description" content="A friendly, volunteer-run, not-for-profit target shooting club in Altrincham. Air rifle and pistol, sporting rifle and target rifle.">
+  <!-- Mockup: keep out of search results so it doesn't compete with the live site. -->
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="assets/img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="mockup-ribbon" role="note">
+    Draft mockup for the club to review. This is not the live site.
+    <span class="tbc-key">Highlighted text</span> still needs confirming.
+  </div>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top">
+        <img src="assets/img/logo.png" alt="" width="56" height="56">
+        <span class="brand-name">Altrincham <span>Rifle &amp; Pistol Club</span></span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Menu</span>
+        <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <a href="#ranges">Ranges</a>
+        <a href="#hours">Opening times</a>
+        <a href="#join">Join</a>
+        <a href="#diary">Diary</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#find-us">Find us</a>
+        <a class="btn btn-small btn-outline" href="#members">Members</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="notice" class="notice" hidden></div>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="wrap hero-inner">
+        <p class="eyebrow">Altrincham &middot; Est. 1940</p>
+        <h1>Precision target shooting, in a safe and friendly club</h1>
+        <p class="lede">A not-for-profit club run by volunteer members and range officers. Indoor ranges for air rifle &amp; pistol, sporting rifle and target rifle, with club equipment to borrow free of charge.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#join">How to join</a>
+          <a class="btn btn-ghost" href="#hours">Opening times</a>
+        </div>
+        <p id="open-now" class="open-now" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="The club at a glance">
+      <div class="wrap stats-grid">
+        <div><strong>1940</strong><span>established</span></div>
+        <div><strong>3</strong><span>disciplines</span></div>
+        <div><strong>6</strong><span>electronic air gun points</span></div>
+        <div><strong>5</strong><span>smallbore rifle points</span></div>
+        <div><strong>Free</strong><span>club guns to borrow</span></div>
+      </div>
+    </section>
+
+    <section id="ranges" class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Our ranges</p>
+          <h2>Three disciplines, one friendly club</h2>
+          <p>Probationary members can try all of them. You pay your membership and your pellets or ammunition; we provide the equipment.</p>
+        </div>
+        <div id="discipline-cards" class="cards"></div>
+      </div>
+    </section>
+
+    <section id="hours" class="section section-alt">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Opening times</p>
+          <h2>When the ranges are open</h2>
+          <p id="last-entry"></p>
+        </div>
+        <div class="legend" id="legend"></div>
+        <div id="timetable" class="timetable"></div>
+      </div>
+    </section>
+
+    <section id="join" class="section">
+      <div class="wrap join-grid">
+        <div>
+          <p class="eyebrow">Joining the club</p>
+          <h2>How to become a member</h2>
+          <ol class="steps">
+            <li>
+              <h3>Get in touch</h3>
+              <p>Join the waiting list and we'll contact you when a place opens. If you already hold a firearm certificate (FAC), you can apply straight away.</p>
+            </li>
+            <li>
+              <h3>First visit &amp; safety briefing</h3>
+              <p>Come along to a session, meet the range officers and learn the range rules. <span class="tbc" title="Needs confirming">What to bring and how long it takes: TBC</span></p>
+            </li>
+            <li>
+              <h3>Probation</h3>
+              <p>As a probationary member you can try every range and all the club equipment, with experienced members on hand. <span class="tbc" title="Needs confirming">Probation length and attendance requirements: TBC</span></p>
+            </li>
+            <li>
+              <h3>Full membership</h3>
+              <p>Shoot whenever the ranges are open, join league and national competitions, and help out on working parties.</p>
+            </li>
+          </ol>
+        </div>
+        <aside class="join-card">
+          <h3>Membership fees</h3>
+          <table class="fees" id="fees"></table>
+          <div class="join-actions">
+            <a class="btn btn-primary" href="#contact">Join the waiting list</a>
+            <a class="btn btn-outline" id="fac-link" href="#" target="_blank" rel="noopener">I hold an FAC: apply now</a>
+          </div>
+          <p class="small">FAC holders will be asked for proof of their certificate.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="diary" class="section section-alt">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Diary</p>
+          <h2>What's coming up</h2>
+          <p>Competitions, Scout and youth group visits, guest days and working parties.</p>
+        </div>
+        <ul id="events" class="events"></ul>
+        <p class="diary-actions">
+          <a class="btn btn-outline" href="#" aria-disabled="true" title="Would link to a shared Google Calendar">Add the club calendar to your phone</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Gallery</p>
+          <h2>Members in action</h2>
+          <p>Club nights, matches and championships from across the country.</p>
+        </div>
+        <div class="gallery">
+          <button type="button" data-full="assets/img/gallery/match-day.jpg"><img loading="lazy" src="assets/img/gallery/match-day.jpg" alt="Rows of shooters on a large indoor range during a competition"><span>Competition day</span></button>
+          <button type="button" data-full="assets/img/gallery/trophies.jpg"><img loading="lazy" src="assets/img/gallery/trophies.jpg" alt="Silver cups and trophies on a table"><span>Silverware</span></button>
+          <button type="button" data-full="assets/img/gallery/air-pistol-shooter.jpg"><img loading="lazy" src="assets/img/gallery/air-pistol-shooter.jpg" alt="A member aiming an air pistol on the air gun range"><span>Air pistol</span></button>
+          <button type="button" data-full="assets/img/gallery/range-view.jpg"><img loading="lazy" src="assets/img/gallery/range-view.jpg" alt="Looking down the indoor range towards the target end"><span>The range</span></button>
+          <button type="button" data-full="assets/img/gallery/smallbore-shooter.jpg"><img loading="lazy" src="assets/img/gallery/smallbore-shooter.jpg" alt="A member shooting a scoped rifle from a firing point"><span>Sporting rifle</span></button>
+          <button type="button" data-full="assets/img/gallery/medals.jpg"><img loading="lazy" src="assets/img/gallery/medals.jpg" alt="Gold and bronze medals in presentation boxes"><span>Medals</span></button>
+          <button type="button" data-full="assets/img/gallery/firing-points.jpg"><img loading="lazy" src="assets/img/gallery/firing-points.jpg" alt="A row of air gun firing points with electronic target changers"><span>Air gun firing points</span></button>
+          <button type="button" data-full="assets/img/gallery/air-rifle.jpg"><img loading="lazy" src="assets/img/gallery/air-rifle.jpg" alt="An air rifle and ear defenders resting at a firing point"><span>Air rifle</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section section-alt">
+      <div class="wrap narrow">
+        <div class="section-head">
+          <p class="eyebrow">Questions</p>
+          <h2>Frequently asked</h2>
+        </div>
+        <details>
+          <summary>Do I need a licence to shoot here?</summary>
+          <p>Not to get started. Air guns at the club don't need a certificate, and probationary members can shoot club rifles under supervision. You'll only need a firearm certificate if you want to own your own rifle, and the club can help with that once you're a member. <span class="tbc" title="Needs confirming">Wording to be checked by the committee.</span></p>
+        </details>
+        <details>
+          <summary>I've never shot before. Is that OK?</summary>
+          <p>Absolutely. Most members started as complete beginners. Experienced members and range officers will take you through safety and technique, and air rifle is a great place to start.</p>
+        </details>
+        <details>
+          <summary>What age can I join?</summary>
+          <p><span class="tbc" title="Needs confirming">Minimum age and junior arrangements: TBC.</span> We regularly host Scout groups for competitions.</p>
+        </details>
+        <details>
+          <summary>What should I bring?</summary>
+          <p>Just yourself. Club guns are free to borrow, and you pay for pellets or ammunition as you use them. <span class="tbc" title="Needs confirming">Hearing/eye protection and ID requirements: TBC.</span></p>
+        </details>
+        <details>
+          <summary>Can I bring a friend?</summary>
+          <p>Look out for guest days in the diary, which are the best way for friends and family to have a go. <span class="tbc" title="Needs confirming">Guest rules: TBC.</span></p>
+        </details>
+        <details>
+          <summary>Is the club accessible?</summary>
+          <p><span class="tbc" title="Needs confirming">Step-free access, parking and toilets: TBC.</span> We've hosted groups of shooters with disabilities and are happy to talk through what you need.</p>
+        </details>
+      </div>
+    </section>
+
+    <section id="find-us" class="section">
+      <div class="wrap find-grid">
+        <div>
+          <p class="eyebrow">Find us</p>
+          <h2>How to find us</h2>
+          <p class="address" id="address"></p>
+          <p>Get in touch and we'll send you directions before your first visit.</p>
+        </div>
+        <div id="contact">
+          <h2>Get in touch</h2>
+          <ul class="contact-list" id="contact-list"></ul>
+          <form class="contact-form" id="contact-form">
+            <label>Name <input name="name" autocomplete="name" required></label>
+            <label>Email <input name="email" type="email" autocomplete="email" required></label>
+            <label><span>Phone <span class="optional">(optional)</span></span> <input name="phone" type="tel" autocomplete="tel"></label>
+            <label>What's it about?
+              <select name="subject">
+                <option>Joining / waiting list</option>
+                <option>Guest day</option>
+                <option>Scout or group visit</option>
+                <option>Something else</option>
+              </select>
+            </label>
+            <label>Message <textarea name="message" rows="4" required></textarea></label>
+            <button class="btn btn-primary" type="submit">Send message</button>
+            <p class="form-status" id="form-status" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="members" class="section section-dark">
+      <div class="wrap members-inner">
+        <div>
+          <p class="eyebrow">Members' area</p>
+          <h2>Already a member?</h2>
+          <p>Range rules, forms, match results and committee notices, all in one place.</p>
+        </div>
+        <a class="btn btn-primary" href="#members" aria-disabled="true" title="Not built yet in the mockup">Members' login</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-brand">
+        <img src="assets/img/logo.png" alt="Altrincham Rifle and Pistol Club logo" width="64" height="64">
+        <p>Altrincham Rifle and Pistol Club<br><span>Not for profit, run by volunteers</span></p>
+      </div>
+      <ul class="footer-links" id="footer-links"></ul>
+      <p class="copyright">&copy; <span id="year">2026</span> Altrincham Rifle and Pistol Club</p>
+    </div>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox">
+    <form method="dialog"><button class="lightbox-close" aria-label="Close">&times;</button></form>
+    <img alt="">
+    <p class="lightbox-caption"></p>
+  </dialog>
+
+  <script src="assets/js/club-data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
